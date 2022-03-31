@@ -1,7 +1,7 @@
 {
-    "name": "Local Export",
+    "name": "Local Export modified",
     "id": "disk",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "mapping": "AWS S3 Default Mappings",
     "types": [
         "webtx"
