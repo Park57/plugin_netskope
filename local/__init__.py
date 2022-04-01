@@ -1,1 +1,1 @@
-"""AWS S3 Plugin."""
+"""Local plugin"""
