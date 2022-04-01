@@ -71,7 +71,7 @@ class DiskPlugin(PluginBase):
                     self.configuration.get("storage_path"),
                     f"{self.configuration.get('obj_prefix', 'default')}_webtx_{int(time.time())}.txt.gz",
                 ),
-                "w+",
+                "wb+",
             ) as out:
                 for data in transformed_data:
                     out.write(data)
