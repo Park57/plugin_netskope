@@ -75,7 +75,6 @@ class DiskPlugin(PluginBase):
             ) as out:
                 for data in transformed_data:
                     out.write(data)
-            self.logger.info(f"File successfully created")
         except Exception as e:
             self.logger.error(f"Error while storing to disk: {e}")
             raise
